@@ -2,7 +2,7 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ServiceCard from "../components/home/ServiceCard";
-import TestimonialSection from "../components/home/TestimonialSection";
+import TestimonialSection from "../components/home/ReferenceSection";
 
 const services = [
     {

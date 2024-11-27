@@ -1,8 +1,8 @@
 "use client";
-import HeroSection from "./home/HeroSection";
+import TitleSection from "./home/TitleSection";
 import AboutSection from "./home/AboutSection";
 import ServiceCard from "./home/ServiceCard";
-import TestimonialSection from "./home/TestimonialSection";
+import ReferenceSection from "./home/ReferenceSection";
 
 const services = [
   {
@@ -26,7 +26,7 @@ const services = [
 export default function MainContent() {
     return (
         <div>
-            <HeroSection />
+            <TitleSection />
             <AboutSection />
             <div className="bg-blue-900 text-white py-10">
                 <div className="text-center mb-12">
@@ -44,7 +44,7 @@ export default function MainContent() {
                     ))}
                 </div>
             </div>
-            <TestimonialSection />
+            <ReferenceSection />
         </div>
     );
 }

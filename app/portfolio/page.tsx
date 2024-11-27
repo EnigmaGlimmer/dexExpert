@@ -47,7 +47,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-16 bg-white">
+            <div className="pb-16 bg-white">
                 <div className="max-w-7xl mx-auto text-center">
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">Creative Solutions</h2>
                     <p className="text-gray-600 mb-8">

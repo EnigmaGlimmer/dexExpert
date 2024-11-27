@@ -4,7 +4,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-blue-900 text-white py-10">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center space-y-8 md:space-y-0">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-2 md:items-center space-y-8 md:space-y-0">
         <div>
           <h3 className="text-lg font-bold">Services</h3>
           <p className="text-sm mt-2">Expert web design, SEO, and IT solutions.</p>
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
           <p className="text-sm mt-1">JASONJARRELLLLC@outlook.com</p>
         </div>
 
-        <div>
+        <div className='sm:max-w-72'>
           <h3 className="text-lg font-bold">Local</h3>
           <form className="mt-4">
             <label htmlFor="email" className="block text-sm">
