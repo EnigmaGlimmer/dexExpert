@@ -16,6 +16,8 @@ export default {
           700: '#437998',
           600: '#1d3557',
         },
+        limeGreen:'#a8dadc',
+        buttonSend:'#457b9d',
       },
     },
   },

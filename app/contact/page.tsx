@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -12,8 +13,8 @@ const Contact: React.FC = () => {
                     <p className="text-gray-600 mb-10 text-center">
                         Reach out for web design, SEO, and IT services inquiries.
                     </p>
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-                        <div className="bg-teal-200 p-6 rounded-lg shadow-md w-full max-w-md">
+                    <div className="flex flex-col md:flex-row items-center justify-center">
+                        <div className="bg-limeGreen p-6 rounded-lg shadow-md w-full max-w-md">
                             <form className="space-y-4">
                                 <div>
                                     <label className="block text-gray-700 font-medium mb-2">
@@ -47,7 +48,7 @@ const Contact: React.FC = () => {
                                 </div>
                                 <button
                                     type="submit"
-                                    className="w-full bg-teal-500 text-white py-3 rounded-lg hover:bg-teal-600 transition duration-300"
+                                    className="w-full bg-buttonSend text-white py-3 rounded-lg transition duration-300"
                                 >
                                     Send Your Inquiry
                                 </button>
@@ -65,7 +66,6 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="my-6 flex flex-col items-center justify-center p-6">
                     <div className="max-w-6xl w-full grid md:grid-cols-2 gap-8">
-                        {/* Contact Information */}
                         <div className="space-y-6">
                             <h1 className="text-4xl font-bold">Contact Us</h1>
                             <p className="text-gray-600">

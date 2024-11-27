@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <nav className="px-4 py-8 sticky top-0 drop-shadow-xl z-20 bg-white">
             <div className="flex flex-row justify-between">
-                <h1 className="text-xl font-bold mb-2 md:mb-0 md:text-2xl">JASON JARRELL LLC</h1>
+                <h1 className="text-xl font-bold mb-2 md:mb-0 md:text-2xl"><Link href="/">JASON JARRELL LLC</Link></h1>
                 <div className="relative flex flex-col justify-between items-end">
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
