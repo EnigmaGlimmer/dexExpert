@@ -51,7 +51,7 @@ const ReferenceSection: React.FC = () => {
                   <span key={i} className="text-yellow-400">★</span>
                 ))}
               </div>
-              <p className="w-72 text-lg font-light italic md:w-full">&rdquo;{referencemodel.content}&rdquo;</p>
+              <p className="w-72 text-lg font-light italic md:w-full">&ldquo;{referencemodel.content}&rdquo;</p>
               <div className="flex items-center space-x-4">
                 <Image
                   src={referencemodel.authorImage}
