@@ -6,7 +6,6 @@ import Header from "../components/Header";
 const Contact: React.FC = () => {
     return (
         <div>
-            <Header />
             <div className="bg-gray-50">
                 <div className="my-6 flex flex-col items-center justify-center">
                     <h1 className="text-4xl font-bold mb-2">Get in Touch with Us</h1>
@@ -115,7 +114,6 @@ const Contact: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div>
         </div>
     );

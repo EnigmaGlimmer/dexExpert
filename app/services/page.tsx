@@ -25,7 +25,6 @@ const services = [
 export default function Services() {
     return (
         <div>
-            <Header />
             <div className="py-10">
                 <div className="my-6 flex flex-col items-center justify-center">
                     <h1 className="text-5xl font-bold mb-2">Freelance Web Solutions</h1>
@@ -51,7 +50,6 @@ export default function Services() {
                 </div>
             </div>
             <ClientFeedback />
-            <Footer />
         </div>
     );
 }

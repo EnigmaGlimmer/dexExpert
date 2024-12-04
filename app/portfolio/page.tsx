@@ -15,7 +15,6 @@ const Portfolio = () => {
 
     return (
         <div>
-            <Header />
             <div className="py-16 px-8">
                 <h2 className="text-3xl font-bold mb-8">Web Design</h2>
                 <p className="text-lg text-gray-600 mb-4">
@@ -72,7 +71,6 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
 
     );
