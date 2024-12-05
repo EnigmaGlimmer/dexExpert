@@ -1,7 +1,5 @@
 "use client";
 import Image from "next/image";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 
 const Portfolio = () => {
     const images = [

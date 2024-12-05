@@ -1,7 +1,7 @@
 import React from 'react'
 import FeedbackCard from './FeedbackCard';
 
-type Props = {};
+type Props = Record<string, unknown>;
 
 const clients: ClientModel[] =[
     {

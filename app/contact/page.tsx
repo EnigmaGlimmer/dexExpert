@@ -1,7 +1,6 @@
 "use client"
+import Image from "next/image";
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 
 const Contact: React.FC = () => {
     return (
@@ -55,7 +54,7 @@ const Contact: React.FC = () => {
                         </div>
 
                         <div className="w-full max-w-md">
-                            <img
+                            <Image
                                 src="/img/contact.jpg"
                                 alt="Contact Us"
                                 className="rounded-lg shadow-md"

@@ -1,6 +1,4 @@
 "use client"
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import ServiceCard from "../components/home/ServiceCard";
 import ClientFeedback from "../components/services/ClientFeedback";
 
@@ -29,7 +27,7 @@ export default function Services() {
                 <div className="my-6 flex flex-col items-center justify-center">
                     <h1 className="text-5xl font-bold mb-2">Freelance Web Solutions</h1>
                     <p className="text-gray-600 text-center">
-                        Expert web design, SEO and IT services tailored for your local business needs. Let's connect today!
+                        Expert web design, SEO and IT services tailored for your local business needs. Let&apos;s connect today!
                     </p>
                 </div>
             </div>
